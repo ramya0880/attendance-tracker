@@ -1,0 +1,203 @@
+<html>
+
+<head>
+	<title>web Development</title>
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			background-image : src ('collage.jpeg') ;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+
+		.navbar {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: sticky;
+			top: 0;
+			cursor: pointer;
+		}
+
+		.background {
+			background: black;
+			background-blend-mode: darken;
+			background-size: cover;
+		}
+
+		.nav-list {
+			width: 70%;
+			display: flex;
+			align-items: center;
+		}
+
+		.logo {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.logo img {
+			width: 100px;
+			border-radius: 50px;
+		}
+
+		.nav-list li {
+			list-style: none;
+			padding: 26px 30px;
+		}
+
+		.nav-list li a {
+			font-family: 'Arial';
+			font-size: 25px;
+			text-decoration: none;
+			color: white;
+		}
+
+		.nav-list li a:hover {
+			color: grey;
+		}
+
+		.rightnav {
+			width: 30%;
+			font-size: 50px;
+			text-align: right;
+		}
+
+		#search {
+			padding: 5px;
+			font-size: 17px;
+			border: 2px solid grey;
+			border-radius: 9px;
+		}
+
+		.firstsection {
+			background-color: yellow;
+			height: 400px;
+		}
+
+		.box-main {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: black;
+			max-width: 80%;
+			margin: auto;
+			height: 80%;
+		}
+
+		.firsthalf {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.text-big {
+			font-family: 'Piazzolla', serif;
+			font-weight: bold;
+			font-size: 35px;
+		}
+
+		.text-small {
+			font-size: 18px;
+		}
+
+		.btn {
+			padding: 8px 20px;
+			margin: 7px 0;
+			border: 2px solid white;
+			border-radius: 8px;
+			background: none;
+			color: white;
+			cursor: pointer;
+		}
+
+		.btn-sm {
+			padding: 6px 10px;
+			vertical-align: middle;
+		}
+
+		.section {
+			height: 400px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			max-width: 90%;
+			margin: auto;
+		}
+
+		.section-Left {
+			flex-direction: row-reverse;
+		}
+
+		.paras {
+			padding: 0px 65px;
+		}
+
+		.center {
+			text-align: center;
+		}
+		.fclass{
+			font-family: fantasy;
+			color:#3E1780;
+			letter-spacing: 1px;
+		}
+		.sclass{
+			font-family: serif;
+			color:#3E1780;
+		}
+		.ts{
+			animation: animate 1.5s linear infinite;
+			text-decoration: underline;
+			font-size: 20px;
+			font-family: arial;
+			color: #74A2DF;
+		}
+	</style>
+</head>
+
+<body>
+	<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src= "cietlogo.jpg" >
+			</div>
+			<li><a href="#web">BE/B.Tech</a></li>
+			<li><a href="#program">MBA</a></li>
+		</ul>
+
+		<div class="rightNav">
+			<input type="text" name="search" id="search">
+			<button class="btn btn-sm">Search</button>
+		</div>
+	</nav>
+
+	<section class="firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<center><h1 class="text-big" id="web">COIMBATORE INSTITUTE OF ENGINEERING AND TECHNOLOGY</h1></center>
+				<center><h2 class="text-bold">
+					COIMBATORE
+				</h2></center>
+				<center><p class="text-small" id="web">Autonomous| Accredited By NAAC with 'A' Grade |
+				Approved by AICTE | Affiliated to Anna University</p></center>
+				<div class="fclass">
+				<center><h3 class="text-small"  id="web" >TNEA </h3></center></div>
+					<div class="sclass">
+					<center><h3 class="text-big" id="web" >2704 </center></h3</br>
+					</h3></div>
+                    <div class ="ts"><a href="http://localhost/Attendance-System-master/">
+					<center> <h3 class="text-bold" id="web">Teachers</h3></center></a>
+					<a href="file:///C:/Users/Hari/Desktop/Mini%20Project/project/first%20login%20page/index.html">
+					<center><h3 class="text-bold" id="web">Students</h3></center></div></a>
+         </div>
+		</div>
+	</section>
+</body>
+
+</html>
